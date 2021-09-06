@@ -10,11 +10,12 @@
 
 <body style="background-color: aquamarine;">
 	<h1>Vice Versa</h1>
-	<form action="#">
+	<form action="{% url 'reverse' %}">
 		<textarea name="usertext" id="" cols="100" rows="20"></textarea>
+		<br>
+		<br>
+		<input type="submit" value="Reverse!">
 	</form>
-	<br>
-	<button>Reverse</button>
 </body>
 
 </html>
